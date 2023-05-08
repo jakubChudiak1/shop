@@ -1,0 +1,49 @@
+#hero{
+    display: flex;
+    background-image: url("../../assets/images/bg.svg");
+    border-radius: 18px;
+}
+
+.hero-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 90px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+}
+
+.hero-content button{
+    align-self: flex-start;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 18px; 
+}
+
+.hero-cart{
+    flex: 1;  
+}
+
+.hero-cart img{
+    
+}
+
+@media (max-width:1000px){
+    .hero-content{
+        padding: 100px 10px;
+    }
+
+
+    .hero-cart{
+        display: none;
+    }
+}
+
+@media (max-width:1024){
+    .hero-cart{
+        width: 80%;
+    }
+}

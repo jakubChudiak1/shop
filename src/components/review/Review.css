@@ -1,0 +1,41 @@
+#review{
+
+}
+
+#review h1{
+    padding: 10px 0;
+}
+
+.form-inputs{
+    display: flex;
+    gap: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label{
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.inputs input{
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#review-btn{
+    margin-top: 10px;
+    padding: 20px 20px;
+    
+
+}
+
+@media (max-width:624px){
+    .form-inputs{
+        gap: 10px;
+        flex-direction: column;
+    }
+}

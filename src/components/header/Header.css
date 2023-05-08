@@ -1,0 +1,21 @@
+#header{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 50px;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.cart{
+    cursor: pointer;
+}
