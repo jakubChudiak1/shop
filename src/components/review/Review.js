@@ -31,7 +31,7 @@ const Review = ()=>{
                     </div>
                     
                     <div className='form-inputs'>
-                        <Col lg="12"  md="12" sm="12" xs="12" className='inputs'>
+                        <Col  xs="12" className='inputs'>
                             <label htmlFor="review-text">Your Review</label>
                             <textarea name="review" id="review-text"  rows="10" required></textarea>
                         </Col>
